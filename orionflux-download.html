@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>OrionFlux - Download do APK</title>
+    <link rel="stylesheet" href="orionflux-download.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Partículas flutuantes -->
+    <canvas id="particlesCanvas"></canvas>
+
+    <div class="container">
+        <div class="card animate-card">
+            <!-- Logo animada -->
+            <div class="logo animate-float">
+                <img src="img/icon.png" class="logo-icon"> 
+                <h1>OrionFlux</h1>
+            </div>
+            <p class="tagline animate-text">Sua IA. Seu celular. Seus dados.</p>
+
+            <!-- Imagem do app -->
+            <div class="app-image animate-scale">
+                <img src="img/icon.png" alt="OrionFlux App" id="app-preview">
+                <div class="glow-effect"></div>
+            </div>
+
+            <!-- Badge de segurança -->
+            <div class="security-badge animate-fade">
+                🔒 100% Privado & Offline-first
+            </div>
+
+            <!-- Área de download -->
+            <div class="download-area animate-slide-up">
+                <div class="version-badge">📱 Android 5.0+ | v1.0.0</div>
+                <a href="app/OrionFlux.apk" id="download-btn" class="download-button" download>
+                    <span class="btn-text">⬇️ Baixar APK</span>
+                    <span class="btn-loader hidden">⏳</span>
+                </a>
+                <p class="secure-note">🔒 Arquivo seguro – instalável diretamente</p>
+            </div>
+
+            <!-- Aviso Android -->
+            <div class="warning-box animate-fade">
+                <span class="warning-icon">⚠️</span>
+                <span><strong>Apenas para Android</strong> – Permita "fontes desconhecidas" nas configurações.</span>
+            </div>
+
+            <!-- Cards de características -->
+            <div class="features">
+                <div class="feature-card animate-card-delay-1">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Multi‑IA</h3>
+                    <p>Normal, Genial, Código, Pesquisa, Imagem, TTS</p>
+                </div>
+                <div class="feature-card animate-card-delay-2">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Privacidade Total</h3>
+                    <p>Dados apenas no seu dispositivo</p>
+                </div>
+                <div class="feature-card animate-card-delay-3">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Versão Web</h3>
+                    <p>Acesse também no navegador</p>
+                </div>
+            </div>
+
+            <!-- Versão web -->
+            <div class="web-version animate-slide-up">
+                <p>🎮 <strong>OrionFlux Web</strong> – use no PC, iOS ou Android:</p>
+                <a href="https://orionflux-frontend.onrender.com" id="web-link" class="web-button" target="_blank">
+                    🌐 Abrir no Navegador
+                </a>
+            </div>
+
+            <!-- Sobre -->
+            <div class="about animate-fade">
+                <h2>Sobre o OrionFlux</h2>
+                <p>Chat com IA privado, gratuito e offline‑first. Desenvolvido por <strong>Gerson Muinga Gomes</strong>, Engenheiro Informático de Gestão.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="orionflux-download.js"></script>
+</body>
+</html>
